@@ -1,0 +1,65 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:ddl300="http://schemas.microsoft.com/analysisservices/2011/engine/300" xmlns:ddl300_300="http://schemas.microsoft.com/analysisservices/2011/engine/300/300" xmlns:ddl400="http://schemas.microsoft.com/analysisservices/2012/engine/400" xmlns:ddl400_400="http://schemas.microsoft.com/analysisservices/2012/engine/400/400" xmlns:ddl500="http://schemas.microsoft.com/analysisservices/2013/engine/500" xmlns:ddl500_500="http://schemas.microsoft.com/analysisservices/2013/engine/500/500" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="abc08469-87a7-4761-ae15-2e3077cd67f4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>Kramse ODS 2154458 V3_3</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>Fact Fuel Consumption Ships</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="d3fb654a-e9e0-43fa-9af1-48f479767e85">
+          <ID>Fact Fuel Consumption Ships</ID>
+          <Name>Fact Fuel Consumption Ships</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="5350236c-c20d-462e-ba70-e297a9fda0d4">
+            <DataSourceViewID>Kramse ODS 2154458 V3</DataSourceViewID>
+            <TableID>dbo_Fact_Fuel_Consumption_Ships</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Waiting Time</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="ae367eef-5b78-4490-afdb-6809a0f0c845">
+          <ID>Fact Waiting Time</ID>
+          <Name>Fact Waiting Time</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="e6474bae-1c0a-4ef6-92f5-7ef072a43dd1">
+            <DataSourceViewID>Kramse ODS 2154458 V3</DataSourceViewID>
+            <TableID>dbo_Fact_Waiting_Time</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>Fact Shipment Operations</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="a4c3a3d9-a205-4d7a-98be-27912d0edbe9">
+          <ID>Fact Shipment Operations</ID>
+          <Name>Fact Shipment Operations</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="DsvTableBinding" dwd:design-time-name="6e59d6cb-1e44-45c2-9606-2c10f12de371">
+            <DataSourceViewID>Kramse ODS 2154458 V3</DataSourceViewID>
+            <TableID>dbo_Fact_Shipment_Operations</TableID>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

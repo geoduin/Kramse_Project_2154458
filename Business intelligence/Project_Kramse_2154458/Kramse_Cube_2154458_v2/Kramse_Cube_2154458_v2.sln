@@ -1,0 +1,23 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.3.32819.101
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D2ABAB84-BF74-430A-B69E-9DC6D40DDA17}") = "Kramse_Cube_2154458_v2", "Kramse_Cube_2154458_v2\Kramse_Cube_2154458_v2.dwproj", "{7E4CFC22-8757-40EF-AFB4-5F8EB7B2A5B1}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Development|Default = Development|Default
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{7E4CFC22-8757-40EF-AFB4-5F8EB7B2A5B1}.Development|Default.ActiveCfg = Development
+		{7E4CFC22-8757-40EF-AFB4-5F8EB7B2A5B1}.Development|Default.Build.0 = Development
+		{7E4CFC22-8757-40EF-AFB4-5F8EB7B2A5B1}.Development|Default.Deploy.0 = Development
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {8AADB63C-8AFC-42AA-90FC-F06FF5E21AB9}
+	EndGlobalSection
+EndGlobal
